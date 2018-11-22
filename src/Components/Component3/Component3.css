@@ -1,0 +1,82 @@
+.section3{ color:#747474;
+    background: #daf8f5;
+    width: 100%;
+    height: 88%; }
+    .grid1{
+    display: flex;
+    flex-direction: row;}
+    .grid1-column1 {
+            width: 50%;
+            background: url(https://www.docplanner.com/img/logo.png) no-repeat 40px 350px;}   
+    .grid1-column1  h1{
+        font-size: 30px;
+        letter-spacing: 10%;
+        color: #00b39b;
+        text-align: left;
+        margin-left: 20%;
+        margin-top:20%; }
+    .grid1-column2 {
+        width: 50%;}
+    .grid2{
+        display: flex;
+        flex-direction: column;}
+     .grid2-column1, .grid2-column2{ 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row ;
+        align-content: space-between ;
+    width: 80%;
+    height: 100%;} 
+    .grid2-column1-row1, .grid2-column1-row2, .grid2-column2-row1, .grid2-column2-row2 { 
+    background: #fff;
+    border-radius: 7px;
+    margin-left:10px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 20%;
+    vertical-align: middle;}
+    .grid2-column1-row1{   
+        margin-top: 18px;}
+    .grid2-column2-row1{
+     margin-top:30px;
+         }
+    .grid1-column2 h3 {
+        font-size: 1.8461538462em;
+        color: #00b39b;
+        margin: .5em 0;
+        font-weight: 400;
+        letter-spacing: .3px;
+        font-style: italic bold ;}
+    .grid1-column2 img {
+        margin-top:15px;}
+    .grid1-column1 p{
+        margin-right:10%;
+        font-weight: 400;
+        margin-left: 20%;}
+        @media only screen and (max-device-width: 480px){ 
+.section3{    width: 181%; }
+.grid1 {
+    display: flex;
+    flex-direction: column;   }  
+    .grid1-column1 p {
+        font-size: 29px;
+        width: 150%;
+        text-align: center;
+        font-weight: 400;
+        margin-left: 28%;
+    }
+    .grid1-column2 {
+          margin-left: 2%
+    }
+    .grid1-column2 h3 {
+        font-size: 32px;}
+    .grid1-column1 h1 {
+        font-size: 55px;    text-align: center;
+        margin-left: 48%;}  
+        .grid2-column1 p{ font-size:20px;}
+        .grid2-column1, .grid2-column2 {
+        width: 112%;    margin-left: 11%; } 
+        }   

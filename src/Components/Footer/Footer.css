@@ -1,0 +1,25 @@
+.footer-text{  
+    border-top: 1px solid #eef2f2;
+    font-size: 12px;
+    color: #ababab;
+    text-align: center;
+    padding: 10px 0px;}
+.footer-text a {
+    text-decoration: none;
+    color: #3d83df;}
+.footer-text a:hover {
+    text-decoration: underline;}
+    @media only screen and (max-device-width: 480px){ 
+        .footer-text p {
+            display: flex;
+    flex-wrap: wrap;
+            text-align: center;
+            margin-left: 40px;
+            width: 157%;
+}
+    .footer-text {
+        width: 83%;
+        font-size: 50px;
+        color: #ababab;
+        text-align: center;
+        padding: 3px 34px;}}
